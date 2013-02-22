@@ -16,7 +16,7 @@ $('#navbar').fix()
 ```
 
 ### Options
-Options can be passed via data attributes or JavaScript. For data attributes, append the option name to data-, as in data-offset-top="200".
+Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-offset-top="200"`.
 <table>
   <thead>
     <tr>
