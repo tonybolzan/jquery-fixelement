@@ -1,6 +1,6 @@
 # `FIX` jQuery Plugin
 
-This is a module to backup and restore the current database application.
+A jQuery Plugin to fix elements on window's top when user scroll
 
 ## Usage
 ### Via data attributes
