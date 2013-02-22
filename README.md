@@ -31,7 +31,7 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
         <td>offset</td>
         <td>number | function | object</td>
         <td>0</td>
-        <td>Pixels to offset from screen when calculating position of scroll</td>
+        <td>Pixels to offset from screen when calculating position of scroll, you can define {top:0,left:0,right:0}</td>
     </tr>
     <tr>
         <td>class</td>
