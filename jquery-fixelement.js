@@ -15,7 +15,9 @@
     var data = this.$element.data();
 
     data.offset = data.offset || {};
-    data.offsetTop && (data.offset.top = data.offsetTop);
+    data.offsetTop   && (data.offset.top   = data.offsetTop);
+    data.offsetRight && (data.offset.right = data.offsetRight);
+    data.offsetLeft  && (data.offset.left  = data.offsetLeft);
 
     this.options = $.extend({}, $.fn.fix.defaults, data, options);
     this.$window = $(window)
